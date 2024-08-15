@@ -1,0 +1,77 @@
+body {
+   background-image: url(Tech.jpeg);
+    color: rgb(238, 163, 207);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+        .navbar {
+            background-color:rgb(245, 195, 224);
+            overflow: hidden; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 10px 15px;
+        }
+        .navbar h1 {
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-size: 24px;
+        }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    background-color: transparent;
+    background-image: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(245, 195, 224);
+    color: rgb(245, 195, 224);
+}
+
+input.form-group:focus {
+    background-color: transparent ;
+}
+
+button {
+    background-color: rgb(238, 163, 207);
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 0, 149);
+}

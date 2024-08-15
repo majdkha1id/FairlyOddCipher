@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fairly Odd Cipher</title>
+        <link rel="stylesheet" href="styling.css"">
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <div class="navbar">
+            <h1>Fairly Odd Cipher</h1>
+            <a href="#">Sara Al-Momani</a>
+            <a href="#">Majd Ziada</a>
+        </div>
+
+        <div class="container">
+            <h1>Fairly Odd Cipher</h1>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <input type="text" id="message" placeholder="Enter your messaage">
+            </div>
+            <div class="form-group">
+                <label for="caesar-shift">Ceasar Shift:</label>
+                <input type="number" id="caesar-shift" placeholder="Enter shift value">
+            </div>
+            <div class="form-group">
+                <label for="playfair-key">Playfair Key:</label>
+                <input type="text" id="playfair-key" placeholder="Enter Playfair key">
+            </div>
+            <div class="form-group">
+                <button onclick="encryptMessage()">Encrypt</button>
+                <button onclick="decryptMessage()">Decrypt</button>
+            </div>
+            <div class="form-group">
+                <label for="output">Output:</label>
+                <textarea id="output" rows="4" readonly></textarea>
+            </div>
+        </div>
+        <script src="fun.js"></script>
+    </body>
+</html>
